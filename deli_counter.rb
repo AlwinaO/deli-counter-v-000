@@ -26,3 +26,5 @@ def now_serving
   else
   puts '#{katz_deli.first}'
 end
+
+end
