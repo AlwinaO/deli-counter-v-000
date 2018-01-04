@@ -22,7 +22,7 @@ end
 
 def now_serving(katz_deli)
   if line.empty?
-    "There is nobody waiting to be served!"
+    puts "There is nobody waiting to be served!"
   else
     puts '#{katz_deli.first}'
 end
