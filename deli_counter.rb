@@ -20,11 +20,11 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
-def now_serving
+def now_serving(katz_deli)
   if line.empty?
-
+    "There is nobody waiting to be served!"
   else
-  puts '#{katz_deli.first}'
+    puts '#{katz_deli.first}'
 end
 
 end
